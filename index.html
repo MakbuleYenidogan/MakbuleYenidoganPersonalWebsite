@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makbule Yenidoğan</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="image/favlogo.JPG">
+
+    <style>
+        .nav-link.active {
+            color: white !important;
+        }
+        .navbar{
+            background: blueviolet !important;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+        }
+        .button{
+            background: blueviolet !important;
+        }
+        .submitbutton{
+            background: blueviolet !important;
+        }
+        .haklariskl{
+            color: blueviolet !important;
+        }
+    </style>
+</head>
+<body>
+
+
+         <!-- ANASAYFA BÖLÜMÜ -->
+<!-- fixed-top menünün sabitlenmesi için -->
+    <nav class=" container-fluid navbar navbar-expand-lg navbar-dark fixed-top">
+        <img src="image/makbulelogo.png" width="200" class="rounded float-start" alt="...">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">CV/Sertifikalarım</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#coursesDetails">Projelerim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">İletişim</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <section class="min-vh-100 d-flex flex-column justify-content-end align-items-center" 
+      id="home" style="background-image: url('image/makbule2.jpeg'); background-size: contain; background-position: center; 
+      background-repeat: no-repeat;">
+      <div class="text-center">
+        <p class="fw-bold display-4 text-white shadow-lg-text">Makbule Yenidoğan</p>
+        <h6 class="fs-3 text-light text-capitalize mb-4 shadow-lg">Frontend Developer</h6>
+      </div>
+      <a class="button border-0 fs-5 px-md-5 fw-bold shadow-lg btn btn-dark rounded-pill mb-2" href="#about">Hakkımda</a>
+      </section>
+
+
+     <!-- HAKKIMDA BÖLÜMÜ -->
+      <section class="container py-5" id="about">
+        <div class="text-center py-5">
+            <h2 class="text-uppercase fw-bolder">Hakkımda</h2>
+            <p>Beykoz üniversitesi Görsel İletişim Tasarım Lisans
+                mezunuyum.
+                Üniversite staj döneminde tasarım alanında çalıştım.
+                Reklam ajansında geçirdiğim 5 aylık staj süreci, tasarım
+                becerilerimi geliştirmeme ve gerçek dünya deneyimi
+                kazanmama yardımcı oldu. Ayrıca, yazılım konusunda da
+                kendimi geliştirmek için üniversitede ve şu anda bireysel
+                olarak çaba sarf etmekteyim.,
+                HTML, CSS ve JavaScript gibi web teknolojileriyle aktif olarak
+                çalışmaktayım. Bu dillerde iyi bir bilgi düzeyine sahibim ve
+                projeler geliştirirken bu teknolojileri etkin bir şekilde
+                kullanabiliyorum. Bootstrap gibi popüler kütüphaneleri
+                öğrenerek, web tasarım ve geliştirme süreçlerinde verimli ve
+                hızlı bir şekilde çalışabiliyorum.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md">
+                <img class="img-fluid " src="image/hkimg.jpg">
+            </div>
+             <!-- "img-fluid" image fluif ile w h değeri veriyoruz -->
+            <div class="col-lg-7 offset-lg-1">
+                <p class="lh-lg">Kullandığım programlar ve bilgi düzeyim aşağıda bulunmakta.</p>
+
+
+                    <h3 class="fw-bold fs-4">Yetenekler:</h3>
+                    <p class="mb-0">HTML:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-success" style="width: 99%;">99%</div>
+                    </div>
+                    <p class="mb-0">CSS:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 99%;">99%</div>
+                    </div>
+                    <p class="mb-0">JS:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 60%;">60%</div>
+                    </div>
+                    <p class="mb-0">BOOTSTRAP 5:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 90%;">90%</div>
+                    </div>
+                    <p class="mb-0">REACT:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-primary" style="width: 20%;">20%</div>
+                    </div>
+                    <p class="mb-0">FIGMA:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-secondary" style="width: 50%;">50%</div>
+                    </div>
+                    <p class="mb-0">ADOBE PHOTOSHOP:</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped bg-success" style="width: 50%;">50%</div>
+                    </div>
+
+
+                </div>
+        </div>
+      </section>
+      
+
+
+     <!-- sertifikalr -->
+      <section id="courses" class="bg-dark py-5">
+        <div class="container">
+            <div class="text-white text-center py-5">
+                <h2 class="fw-bolder text-uppercase">CV/Sertifikalarım</h2>
+                <p><br>
+                    <br>
+                    
+                    <a class="text-decoration-none fs-5 fw-bold text-white" href="file:///C:/Users/Makbule/Desktop/MAKBULE%20YEN%C4%B0DO%C4%9EAN%20CV.pdf" target="_blank" download>
+                        <i class="fs-1 fa-solid fa-file-pdf"></i><br>
+                        CV'yi İndir </a></p>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-6 col-md-6 mb-6">
+                    <a class="text-decoration-none" href="https://www.udemy.com/certificate/UC-d0c781a9-f073-4ba0-8e05-510e2d4ae255/">
+                        <img src="image/img2.png" class="img-fluid img-thumbnail">
+                        <h2 class=" text-white fs-4 pt-3"> Uygulamalı Bootstrap 5 Eğitimi | Sass + 7 Farklı Proje</h2></a>
+                        
+                </div>
+                <div class="col-lg-6 col-md-6 mb-6">
+                    <a class="text-decoration-none" href="https://www.udemy.com/certificate/UC-30ead158-dfb9-41d4-b77e-20f3c21ae684/">
+                    <img src="image/img5.jpg" class="img-fluid img-thumbnail">
+                    <h2 class="text-white fs-4 pt-3">Javascript | Baştan Sona Uygulamalı Javascript Eğitimi</h2></a>
+                </div>
+
+                </div>                
+            </div>
+        </div>
+      </section>
+     <!-- img-thumbnail görsele border verme -->
+
+
+
+     <!-- KURSLAR HAKKINDA BÖLÜMÜ -->
+
+     <section id="coursesDetails" class="py-5">
+      <div class="container">
+        <div class="text-center py-5">
+            <h2 class="fw-bolder text-uppercase">Projelerim Hakkında</h2>
+            <p>HTML, CSS ve JavaScript kullanarak yaptığım uygulamalara üstlerine tıklayarak GitHub üzerinden ulaşabilirsiniz.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="image/111.JPG" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="cardd-title text-center py-2">Time Calculator</h5>
+                    <p>Belirli bir etkinliğin tarihini girin ve Time Calculator size gün/saat/dakika/saniye olarak ne kadar kaldığını göstersin...</p>
+                    <a href="https://github.com/MakbuleYenidogan/TimeCalculator" class="text-decoration-none fw-bolder" style="color: blueviolet;">GitHub'a git</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="image/33333.JPG" class="card-img-top shadow-sm">
+                <div class="card-body">
+                    <h5 class="cardd-title text-center py-2">Rock Paper Scissors Game</h5>
+                    <p>Hepimizin bilgiği taş-kağıt-makas oyununu  Rock Paper Scissors Game sayesinde bilgisayara karşı oynayabilirsiniz...</p>
+                    <a href="https://github.com/MakbuleYenidogan/RockPaperScissors" class="text-decoration-none fw-bolder" style="color: blueviolet;">GitHub'a git</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="image//444444.JPG" class="card-img-top shadow-sm">
+                <div class="card-body">
+                    <h5 class="cardd-title text-center py-2">No Funny Jokes Generator</h5>
+                    <p>No Funny Jokes Generator ile tell me a joke tıkladığınızda size random bir şekilde aslında hiç komik olmayan şakalar yapar...</p>
+                    <a href="https://github.com/MakbuleYenidogan/NoFunnyJokesGenerator" class="text-decoration-none fw-bolder" style="color: blueviolet;">GitHub'a git</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="image/22222.JPG" class="card-img-top shadow-sm">
+                <div class="card-body">
+                    <h5 class="cardd-title text-center py-2">Weather Converter</h5>
+                    <p>Weather Converter girdiğiniz Celsius değerini sizin için Fahrenheit ve Kelvin değerlerine çevirir...</p>
+                        <a href="https://github.com/MakbuleYenidogan/WeatherConverter" class="text-decoration-none fw-bolder" style="color: blueviolet;">GitHub'a git</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="image/5555.JPG" class="card-img-top shadow-sm">
+                <div class="card-body">
+                    <h5 class="cardd-title text-center py-2">Password Generator</h5>
+                    <p>Password Generator random güçlü şifreler oluşturabileceğiniz bir uygulama...</p>
+                        <a href="https://github.com/MakbuleYenidogan/PasswordGenerator" class="text-decoration-none fw-bolder" style="color: blueviolet;">GitHub'a git</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img src="image/6666.JPG" class="card-img-top shadow-sm">
+                <div class="card-body">
+                    <h5 class="cardd-title text-center py-2">Currency Converter</h5>
+                    <p>Currency Converter USD/EUR/AUD/CAD/JPY para birimlerini içeren bir döviz çeviricidir...</p>
+                        <a href="https://github.com/MakbuleYenidogan/CurrencyConverter" class=" text-decoration-none fw-bolder" style="color: blueviolet;">GitHub'a git</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+     </section>
+     <!-- "card-img-top" otomatik kenarlardan boşluk değeri verir -->
+
+
+
+          <!-- İLETİŞİM BÖLÜMÜ -->
+
+    <section class="bg-dark py-5" id="contact"> 
+        <div class="container">
+            <div class=" text-white text-center py-5">
+                <h2 class="fw-bolder text-uppercase">İLETİŞİM</h2>
+                <p>Benimle İletişime Geçebilirsiniz </p>
+          </div>
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+            <form class="text-white">
+                <div class="mb-3">
+                    <label class="form-label">Ad Soyad</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Konu</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mesaj</label>
+                    <textarea type="text" class="form-control" rows="10"></textarea>
+                </div>
+                <button class="submitbutton btn btn-dark btn-lg">Gönder</button>
+            </form>
+          </div>
+        </div>    
+    </section>
+    <!-- mx-auto ortalamızı sağlar otomatik mr mtl ayarlar 
+        col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 
+        (bootstrap grid yapısından yararlanarak)
+        burada isin farklı taraycı cihazlar için inputumuza görünüm boyutu veriyoruz-->
+
+        <footer class="bg-light">
+            <div class="text-center">
+                <p class="fs-5 py-3 mb-0">Tüm hakları saklıdır/ <a class="haklariskl fst-italic" href="">Makbule Yenidoğan</a></p>
+            </div>
+
+        </footer>
+
+
+
+      
+
+    
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
